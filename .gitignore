@@ -1,0 +1,15 @@
+.state/
+models/*
+!models/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.ruff_cache/
+*.log
+.DS_Store
+Thumbs.db

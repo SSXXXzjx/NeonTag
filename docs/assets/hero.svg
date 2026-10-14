@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">NeonTag</title>
+  <desc id="desc">Local vision. Dataset tagging. 黑灰与荧光绿的 NeonTag 项目标识。</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c1ff57" stroke-opacity=".055"/></pattern>
+    <linearGradient id="glow"><stop stop-color="#c1ff57" stop-opacity=".14"/><stop offset="1" stop-color="#c1ff57" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="22" fill="#10140f"/>
+  <rect width="1200" height="280" rx="22" fill="url(#grid)"/>
+  <path d="M780 0H1178Q1200 0 1200 22V258Q1200 280 1178 280H880Z" fill="url(#glow)"/>
+  <rect x="68" y="72" width="112" height="112" rx="23" fill="#c1ff57"/>
+  <path d="M94 156V100H108L140 136V100H154V156H140L108 120V156Z" fill="#16220d"/>
+  <text x="212" y="148" fill="#f1f4ec" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="800" letter-spacing="2">NEON<tspan fill="#c1ff57">TAG</tspan></text>
+  <text x="215" y="186" fill="#9ca894" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="4">LOCAL VISION · DATASET TAGGING</text>
+  <g transform="translate(918 57) rotate(9 76 80)">
+    <rect x="10" y="10" width="146" height="166" rx="16" fill="#202b1b" stroke="#435735"/>
+    <rect width="146" height="166" rx="16" fill="#171f14" stroke="#708d4c"/>
+    <rect x="15" y="15" width="116" height="94" rx="9" fill="#273820"/>
+    <circle cx="98" cy="40" r="11" fill="#c1ff57"/>
+    <path d="M25 97L57 57L81 82L98 65L122 97Z" fill="#8ab853"/>
+    <rect x="17" y="126" width="47" height="9" rx="4" fill="#c1ff57"/>
+    <rect x="72" y="126" width="55" height="9" rx="4" fill="#435735"/>
+    <rect x="17" y="144" width="79" height="7" rx="3" fill="#435735"/>
+  </g>
+</svg>
